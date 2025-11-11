@@ -20,7 +20,7 @@
         <a href="/blog">
             <Newspaper 
                 name="Blog" 
-                class="text-[2rem] text-    primary"
+                class="text-[2rem] text-primary"
             />
         </a>
         <a href="/projects">

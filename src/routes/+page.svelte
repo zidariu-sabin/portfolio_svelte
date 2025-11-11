@@ -29,9 +29,9 @@
                 My name is Sabin Zidariu.</p>
                 <p>
 
-                Motivated and adaptable Fullstack Developer with hands-on experience building and maintaining responsive, data-driven
+                Motivated and adaptable Fullstack Developer with hands-on experience building and maintaining responsive  data-driven
                 web applications in high-paced development teams. Proven ability to learn new technologies quickly and contribute to
-                collaborative solutions. Strong focus on code quality, user experience, and aligning with business goals. Eager to grow
+                collaborative solutions. Strong focus on code quality  user experience  and aligning with business goals. Eager to grow
                 professionally and contribute meaningfully in dynamic development environments
                 </p>
     </div>
@@ -39,21 +39,21 @@
     <div></div>
     <h1>Technologies</h1>
     <div class="flex flex-wrap justify-center gap-4 px-2.5">
-        <span>Vue <VueJs class="cursor-pointer" />, </span>
-        <span>Nuxt <Nuxt class="cursor-pointer" />, </span>
-        <span>NodeJs <NodejsWordmark class="cursor-pointer" />, </span>
-        <!-- <span>Strapi <Icon name="devicon:strapi" class="cursor-pointer" />, </span> -->
-        <!-- <span>Rest API <Icon name="devicon:restapi" class="cursor-pointer" />, </span> -->
-        <span>JavaScript <Javascript  class="cursor-pointer" />, </span>
-        <span>TypeScript <Typescript  class="cursor-pointer" />, </span>
-        <span>Apollo GraphQL <Apollographql  class="cursor-pointer" />, </span>
-        <span>SQL <Mysql  class="cursor-pointer" />, </span>
-        <span>Tailwind CSS <Tailwindcss  class="cursor-pointer" />, </span>
-        <span>Bootstrap <Bootstrap  class="cursor-pointer" />, </span>
-        <span>Symfony <Symfony  class="cursor-pointer" />, </span>
-        <span>PHP <Php  class="cursor-pointer" />, </span>
-        <span>Cypress <CypressioWordmark class="cursor-pointer" />, </span>
-        <span>Linux <Ubuntu  class="cursor-pointer" />, </span>
-        <span>Git <Git  class="cursor-pointer" />, </span>
+        <span>Vue <VueJs class="cursor-pointer" />  </span>
+        <span>Nuxt <Nuxt class="cursor-pointer" />  </span>
+        <span>NodeJs <NodejsWordmark class="cursor-pointer" />  </span>
+        <!-- <span>Strapi <Icon name="devicon:strapi" class="cursor-pointer" />  </span> -->
+        <!-- <span>Rest API <Icon name="devicon:restapi" class="cursor-pointer" />  </span> -->
+        <span>JavaScript <Javascript  class="cursor-pointer" />  </span>
+        <span>TypeScript <Typescript  class="cursor-pointer" />  </span>
+        <span>Apollo GraphQL <Apollographql  class="cursor-pointer" />  </span>
+        <span>SQL <Mysql  class="cursor-pointer" />  </span>
+        <span>Tailwind CSS <Tailwindcss  class="cursor-pointer" />  </span>
+        <span>Bootstrap <Bootstrap  class="cursor-pointer" />  </span>
+        <span>Symfony <Symfony  class="cursor-pointer" />  </span>
+        <span>PHP <Php  class="cursor-pointer" />  </span>
+        <span>Cypress <CypressioWordmark class="cursor-pointer" />  </span>
+        <span>Linux <Ubuntu  class="cursor-pointer" />  </span>
+        <span>Git <Git  class="cursor-pointer" />  </span>
     </div>
 </main>
