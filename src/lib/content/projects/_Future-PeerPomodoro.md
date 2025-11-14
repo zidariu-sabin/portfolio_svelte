@@ -17,7 +17,7 @@ languages:
 - name: JavaScript
   color: "#f1e05a"
   size: 0.3
-readMeOid: fa359d7
+readMeOid: fa359d3
 ---
 ### descriere
 - Send a link (ca in jocuri gen colonist/gartic phone sau aplicatii gen Netflix) cu care sa creezi o sesiune in care sa aveti un timer pomodoro comun cu optiunea de play pause

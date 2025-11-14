@@ -1,4 +1,5 @@
-export const PROJECTS_LIST = [
+import type { ProjectSchema } from './types';
+export const PROJECTS_LIST: ProjectSchema[] = [
   {
     "Title": "portfolio_svelte",
     "Description": "An attempt of porting the porfolio project to Svelte in order to get first hand experience in porting a project to another tech stack and understand more about Svelte as a framework",
@@ -260,36 +261,6 @@ export const PROJECTS_LIST = [
         "Name": "SCSS",
         "Color": "#c6538c",
         "Size": 1
-      }
-    ],
-    "ReadMeOid": "ee7fcab"
-  },
-  {
-    "Title": "FinanceTracker-fork",
-    "Description": "",
-    "Label": "building",
-    "Url": "https://github.com/zidariu-sabin/FinanceTracker-fork",
-    "UpdatedAt": "2025-04-14T19:55:21Z",
-    "Languages": [
-      {
-        "Name": "HTML",
-        "Color": "#e34c26",
-        "Size": 63.8
-      },
-      {
-        "Name": "C#",
-        "Color": "#178600",
-        "Size": 30
-      },
-      {
-        "Name": "TypeScript",
-        "Color": "#3178c6",
-        "Size": 6
-      },
-      {
-        "Name": "SCSS",
-        "Color": "#c6538c",
-        "Size": 0.3
       }
     ],
     "ReadMeOid": "ee7fcab"

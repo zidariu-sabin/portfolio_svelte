@@ -12,16 +12,17 @@
 //   size: z.number(),
 // })
 
-export type lannguageSchema = {
+export type LanguageSchema = {
     Name: string;
     Color: string;
     Size: number;
 }
 export type ProjectSchema = {
     Title: string;
-    Description: string;
+    Description?: string;
     Label?: string;
     Url?: string;
-    UpdatedAt?: Date;
-    Languages: lannguageSchema[];
+    UpdatedAt?: string;
+    Languages: LanguageSchema[];
+    ReadMeOid?: string;
 }
