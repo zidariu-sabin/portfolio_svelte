@@ -3,7 +3,7 @@ title: Finance_tracker_iteration_0_assig_1
 description: ""
 label: building
 url: https://github.com/zidariu-sabin/Finance_tracker_iteration_0_assig_1
-updatedAt: "2025-06-11T17:02:36Z"
+updatedat: "2025-06-11T17:02:36Z"
 languages:
 - name: HTML
   color: "#e34c26"
@@ -17,7 +17,7 @@ languages:
 - name: JavaScript
   color: "#f1e05a"
   size: 0.3
-readMeOid: fa359d7
+readmeoid: fa359d7
 ---
 # Finance Tracker 
 

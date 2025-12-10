@@ -3,17 +3,16 @@
   import type { ProjectSchema, LanguageSchema } from '../../shared/types';
   import PresentationchartLine from "virtual:icons/heroicons/presentation-chart-line";
   import GitHub from "virtual:icons/devicon/github";
+  let {project}: {project: ProjectSchema} = $props();
 
-  let {project} = $props<{project: ProjectSchema}>();
-
-</script>
+</script> 
   <div class="border rounded-[10px] p-2 w-[65ch]">
       <div class= "flex flex-row justify-between items-center mx-2">
-      <a href={project?.Url}>{ project?.Title }</a>
-      <div class="flex flex-row gap-4">
+      <a href={'/projects/'+project?.Title}>{ project?.Title }</a>
+      <div class="flex flex-row gap-4">s
         {#if  project?.Label =='building'}
             <a href={ project?.Url}>
-            <GitHub to="{project?.Url}" name="devicon:github" class="cursor-pointer" />
+            <GitHub name="devicon:github" class="cursor-pointer" />
             </a>
         {/if}
         
@@ -30,7 +29,7 @@
           <circle cx="5" cy="5" r="4" fill={language.Color} />
         </svg>
 
-        <div class="flex flex-row grow gap-5">
+        <div class="flex flex-row grow gap-2">
           <span>{ language.Name }</span>
           <span class="text-gray-slate-600">{ language.Size }%</span>
         </div>

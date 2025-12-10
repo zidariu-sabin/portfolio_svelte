@@ -3,7 +3,7 @@ title: kata-machine-practice
 description: A repository to practice data structures and algoritms following ThePrimeagen's "The last algorithms course you need" from Frontend Masters
 label: building
 url: https://github.com/zidariu-sabin/kata-machine-practice
-updatedAt: "2025-10-06T13:38:25Z"
+updatedat: "2025-10-06T13:38:25Z"
 languages:
 - name: TypeScript
   color: "#3178c6"
@@ -11,7 +11,7 @@ languages:
 - name: JavaScript
   color: "#f1e05a"
   size: 21.7
-readMeOid: 0ffebcc
+readmeoid: 0ffebcc
 ---
 ## Developed live on twitch
 [ThePrimeagen](https://twitch.tv/ThePrimeagen)

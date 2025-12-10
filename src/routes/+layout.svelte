@@ -9,7 +9,7 @@
 <!-- <link rel="icon" href={favicon} /> -->
 <div class="w-full h-full flex flex-col">
 	<Navbar class="h-12 top-0" />
-	{@render children()}
+	{@render children?.()}
 
 </div>	
 

@@ -3,7 +3,7 @@ title: prison-rpg
 description: ""
 label: building
 url: https://github.com/zidariu-sabin/prison-rpg
-updatedAt: "2025-08-19T07:09:02Z"
+updatedat: "2025-08-19T07:09:02Z"
 languages:
 - name: "C#"
   color: "#178600"
@@ -14,7 +14,7 @@ languages:
 - name: HLSL
   color: "#aace60"
   size: 4.5
-readMeOid: 3177e0a
+readmeoid: 3177e0a
 ---
 # prison-rpg
  

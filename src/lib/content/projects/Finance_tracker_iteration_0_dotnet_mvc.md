@@ -3,7 +3,7 @@ title: Finance_tracker_iteration_0_dotnet_mvc
 description: ""
 label: building
 url: https://github.com/zidariu-sabin/Finance_tracker_iteration_0_dotnet_mvc
-updatedAt: "2025-04-01T22:12:01Z"
+updatedat: "2025-04-01T22:12:01Z"
 languages:
 - name: HTML
   color: "#e34c26"
@@ -17,7 +17,7 @@ languages:
 - name: JavaScript
   color: "#f1e05a"
   size: 2.0
-readMeOid: 2c6f010
+readmeoid: 2c6f010
 ---
 Finance Tracker 
 

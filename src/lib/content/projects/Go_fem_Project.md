@@ -3,12 +3,12 @@ title: Go_fem_Project
 description: "Golang project resembling the backend component of a workout tracker following the \"Complete Go for Professional Developers\" course on FrontendMasters "
 label: building
 url: https://github.com/zidariu-sabin/Go_fem_Project
-updatedAt: "2025-08-10T12:57:14Z"
+updatedat: "2025-08-10T12:57:14Z"
 languages:
 - name: Go
   color: "#00ADD8"
   size: 100.0
-readMeOid: 78591d0
+readmeoid: 78591d0
 ---
 # GoWorkoutTracker
 ### Description

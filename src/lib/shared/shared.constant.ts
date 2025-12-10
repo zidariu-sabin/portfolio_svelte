@@ -1,31 +1,106 @@
 import type { ProjectSchema } from './types';
 export const PROJECTS_LIST: ProjectSchema[] = [
   {
-    "Title": "portfolio_svelte",
-    "Description": "An attempt of porting the porfolio project to Svelte in order to get first hand experience in porting a project to another tech stack and understand more about Svelte as a framework",
+    "Title": "portfolio_crawler",
+    "Description": "Golang script that allows for pulling data about the repositories present on a github profile with a documented ReadMe  and creating a markdown file with embedded yaml information",
     "Label": "building",
-    "Url": "https://github.com/zidariu-sabin/portfolio_svelte",
-    "UpdatedAt": "2025-11-10T12:53:35Z",
+    "Url": "https://github.com/zidariu-sabin/portfolio_crawler",
+    "UpdatedAt": "2025-12-08T13:01:46Z",
     "Languages": [
       {
-        "Name": "Svelte",
-        "Color": "#ff3e00",
-        "Size": 69
+        "Name": "Go",
+        "Color": "#00ADD8",
+        "Size": 100
+      }
+    ],
+    "ReadMeOid": "bff5f0b"
+  },
+  {
+    "Title": "unity-prison-dungeon-crawler-rpg",
+    "Description": "dungeon crawler type game with guns in an prison escape like situation ",
+    "Label": "building",
+    "Url": "https://github.com/zidariu-sabin/unity-prison-dungeon-crawler-rpg",
+    "UpdatedAt": "2025-12-07T18:40:52Z",
+    "Languages": [
+      {
+        "Name": "C#",
+        "Color": "#178600",
+        "Size": 99.8
       },
       {
-        "Name": "JavaScript",
-        "Color": "#f1e05a",
-        "Size": 25.5
+        "Name": "Objective-C++",
+        "Color": "#6866fb",
+        "Size": 0.1
       },
       {
-        "Name": "HTML",
-        "Color": "#e34c26",
-        "Size": 4.2
+        "Name": "C++",
+        "Color": "#f34b7d",
+        "Size": 0.1
+      },
+      {
+        "Name": "CMake",
+        "Color": "#DA3434",
+        "Size": 0
+      }
+    ],
+    "ReadMeOid": "8cdb718"
+  },
+  {
+    "Title": "PeerPomodoro_Vue",
+    "Description": "a real-time collaborative Pomodoro timer web platform that enables users - such as teams, study groups, or remote coworkers - to manage focused work sessions together.",
+    "Label": "building",
+    "Url": "https://github.com/zidariu-sabin/PeerPomodoro_Vue",
+    "UpdatedAt": "2025-11-28T11:41:55Z",
+    "Languages": [
+      {
+        "Name": "Vue",
+        "Color": "#41b883",
+        "Size": 56.8
+      },
+      {
+        "Name": "TypeScript",
+        "Color": "#3178c6",
+        "Size": 33.3
       },
       {
         "Name": "CSS",
         "Color": "#663399",
-        "Size": 1.3
+        "Size": 8
+      },
+      {
+        "Name": "HTML",
+        "Color": "#e34c26",
+        "Size": 1.9
+      }
+    ],
+    "ReadMeOid": "a64ee05"
+  },
+  {
+    "Title": "portfolio_svelte",
+    "Description": "An attempt of porting the porfolio project to Svelte in order to get first hand experience in porting a project to another tech stack and understand more about Svelte as a framework",
+    "Label": "building",
+    "Url": "https://github.com/zidariu-sabin/portfolio_svelte",
+    "UpdatedAt": "2025-11-14T16:10:06Z",
+    "Languages": [
+      {
+        "Name": "Svelte",
+        "Color": "#ff3e00",
+        "Size": 72.6
+      },
+      {
+        "Name": "JavaScript",
+        "Color": "#f1e05a",
+        "Size": 17.6
+      },
+      {
+        "Name": "CSS",
+        "Color": "#663399",
+        "Size": 6.9
+      },
+      {
+        "Name": "HTML",
+        "Color": "#e34c26",
+        "Size": 2.9
       }
     ],
     "ReadMeOid": "75842c4"
@@ -266,6 +341,36 @@ export const PROJECTS_LIST: ProjectSchema[] = [
     "ReadMeOid": "ee7fcab"
   },
   {
+    "Title": "FinanceTracker-fork",
+    "Description": "",
+    "Label": "building",
+    "Url": "https://github.com/zidariu-sabin/FinanceTracker-fork",
+    "UpdatedAt": "2025-04-14T19:55:21Z",
+    "Languages": [
+      {
+        "Name": "HTML",
+        "Color": "#e34c26",
+        "Size": 63.8
+      },
+      {
+        "Name": "C#",
+        "Color": "#178600",
+        "Size": 30
+      },
+      {
+        "Name": "TypeScript",
+        "Color": "#3178c6",
+        "Size": 6
+      },
+      {
+        "Name": "SCSS",
+        "Color": "#c6538c",
+        "Size": 0.3
+      }
+    ],
+    "ReadMeOid": "ee7fcab"
+  },
+  {
     "Title": "Finance_tracker_iteration_0_dotnet_mvc",
     "Description": "",
     "Label": "building",
@@ -349,35 +454,5 @@ export const PROJECTS_LIST: ProjectSchema[] = [
       }
     ],
     "ReadMeOid": "07d71a5"
-  },
-  {
-    "Title": "unity-prison-dungeon-crawler-rpg",
-    "Description": "binding of isaac type game with guns in an escape like situation ",
-    "Label": "building",
-    "Url": "https://github.com/zidariu-sabin/unity-prison-dungeon-crawler-rpg",
-    "UpdatedAt": "2024-04-16T11:54:42Z",
-    "Languages": [
-      {
-        "Name": "C#",
-        "Color": "#178600",
-        "Size": 99.8
-      },
-      {
-        "Name": "Objective-C++",
-        "Color": "#6866fb",
-        "Size": 0.1
-      },
-      {
-        "Name": "C++",
-        "Color": "#f34b7d",
-        "Size": 0.1
-      },
-      {
-        "Name": "CMake",
-        "Color": "#DA3434",
-        "Size": 0
-      }
-    ],
-    "ReadMeOid": "8cdb718"
   }
 ]

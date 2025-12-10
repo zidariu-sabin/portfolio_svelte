@@ -3,7 +3,7 @@ title: learn-file-storage-s3-golang-starter
 description: ""
 label: building
 url: https://github.com/zidariu-sabin/learn-file-storage-s3-golang-starter
-updatedAt: "2025-10-05T16:36:18Z"
+updatedat: "2025-10-05T16:36:18Z"
 languages:
 - name: Go
   color: "#00ADD8"
@@ -17,7 +17,7 @@ languages:
 - name: Shell
   color: "#89e051"
   size: 1.7
-readMeOid: 34d955b
+readmeoid: 34d955b
 ---
 # learn-file-storage-s3-golang-starter (Tubely)
 

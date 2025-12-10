@@ -3,7 +3,7 @@ title: FinanceTracker-fork
 description: ""
 label: building
 url: https://github.com/zidariu-sabin/FinanceTracker-fork
-updatedAt: "2025-04-14T19:55:21Z"
+updatedat: "2025-04-14T19:55:21Z"
 languages:
 - name: HTML
   color: "#e34c26"
@@ -17,7 +17,7 @@ languages:
 - name: SCSS
   color: "#c6538c"
   size: 0.3
-readMeOid: ee7fcab
+readmeoid: ee7fcab
 ---
 # FinanceTracker
 24mar2025-test abc
