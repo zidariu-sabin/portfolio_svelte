@@ -24,5 +24,5 @@ export type ProjectSchema = {
     Url?: string;
     UpdatedAt?: string;
     Languages: LanguageSchema[];
-    ReadMeOid?: string;
+    DocFileOid?: string;
 }

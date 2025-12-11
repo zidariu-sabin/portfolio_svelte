@@ -17,7 +17,7 @@ languages:
 - name: Shell
   color: "#89e051"
   size: 1.7
-readmeoid: 34d955b
+docfileoid: 34d955b
 ---
 # learn-file-storage-s3-golang-starter (Tubely)
 

@@ -3,18 +3,18 @@ title: portfolio_crawler
 description: Golang script that allows for pulling data about the repositories present on a github profile with a documented ReadMe  and creating a markdown file with embedded yaml information
 label: building
 url: https://github.com/zidariu-sabin/portfolio_crawler
-updatedat: "2025-12-08T13:01:46Z"
+updatedat: "2025-12-11T22:21:56Z"
 languages:
 - name: Go
   color: "#00ADD8"
   size: 100.0
-readmeoid: bff5f0b
+docfileoid: e267382
 ---
  # PortfolioCrawler
 
- This project represents a Golang script that allows for pulling data about the documented repositories present on a Github Profile in order to display in a portfolio.
+ This project represents a Golang script that allows for pulling documentation data from documented repositories present on a Github Profile in order to display in a portfolio.
  
- It takes out the readme.md files, together with some metadata about the repository that is going to be included in the files as a yaml front matter.
+ It takes out the specified doc files, together with some metadata about the repository that is going to be included in the files as a yaml front matter.
  The metadata currently includes:
  - name
  - description
@@ -42,8 +42,8 @@ go run main.go
 ```
 
 The project will create
-- a file for each repository with an existing "README.md" file in the specified directory
-- a reposMetaData.json file in the project home directory containing all the metadata as json
+- a file for each repository with an existing docfile under the specified name file in the specified directory
+- a reposMetaData.json file in the specified directory containing all the metadata as json
 
 together with :
 

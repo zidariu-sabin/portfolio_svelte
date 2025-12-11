@@ -3,21 +3,21 @@ title: portfolio_svelte
 description: An attempt of porting the porfolio project to Svelte in order to get first hand experience in porting a project to another tech stack and understand more about Svelte as a framework
 label: building
 url: https://github.com/zidariu-sabin/portfolio_svelte
-updatedat: "2025-11-14T16:10:06Z"
+updatedat: "2025-12-10T21:43:11Z"
 languages:
 - name: Svelte
   color: "#ff3e00"
   size: 72.6
 - name: JavaScript
   color: "#f1e05a"
-  size: 17.6
+  size: 17.7
 - name: CSS
   color: "#663399"
   size: 6.9
 - name: HTML
   color: "#e34c26"
   size: 2.9
-readmeoid: 75842c4
+docfileoid: 75842c4
 ---
 # sv
 

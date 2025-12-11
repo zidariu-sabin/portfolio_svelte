@@ -8,7 +8,7 @@ languages:
 - name: Go
   color: "#00ADD8"
   size: 100.0
-readmeoid: 78591d0
+docfileoid: 78591d0
 ---
 # GoWorkoutTracker
 ### Description

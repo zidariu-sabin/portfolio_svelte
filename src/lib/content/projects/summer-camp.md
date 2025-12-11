@@ -11,7 +11,7 @@ languages:
 - name: Twig
   color: "#c1d026"
   size: 26.8
-readmeoid: d7d3118
+docfileoid: d7d3118
 ---
 # summer-camp
 This project represents a web application for managing sports tournaments built using mvc arhitecture with PHP Symfony 5.4, Faker and Bootstrap during an intern program.

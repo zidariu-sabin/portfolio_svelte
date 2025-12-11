@@ -17,7 +17,7 @@ languages:
 - name: JavaScript
   color: "#f1e05a"
   size: 0.7
-readmeoid: be8cb9e
+docfileoid: be8cb9e
 ---
 # Porfolio website created using nuxt and deployed on nuxt-hub
 ## Status

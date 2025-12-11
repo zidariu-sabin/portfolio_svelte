@@ -1,6 +1,6 @@
 <script lang="ts">
   import ProjectCard from '$lib/components/projects/ProjectCard.svelte';
-  import { PROJECTS_LIST } from '$lib/shared/shared.constant';
+  import { PROJECTS_LIST } from '$lib/shared/reposMetaData'
   import type { ProjectSchema } from '$lib/shared/types';
 
 </script>
@@ -9,10 +9,10 @@
   <h1>Projects</h1>
   <div class="flex flex-row gap-4">
     <ul class="flex flex-col gap-2">
-      {#each PROJECTS_LIST as project(project.ReadMeOid) }
+      {#each PROJECTS_LIST as project(project.DocFileOid) }
         <li class="list-none">
           <ProjectCard {project} />
-        </li>
+        </li> 
       {/each}
     </ul>
   </div>

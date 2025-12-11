@@ -1,11 +1,10 @@
-import type { ProjectSchema } from './types';
-export const PROJECTS_LIST: ProjectSchema[] = [
+[
   {
     "Title": "portfolio_crawler",
     "Description": "Golang script that allows for pulling data about the repositories present on a github profile with a documented ReadMe  and creating a markdown file with embedded yaml information",
     "Label": "building",
     "Url": "https://github.com/zidariu-sabin/portfolio_crawler",
-    "UpdatedAt": "2025-12-08T13:01:46Z",
+    "UpdatedAt": "2025-12-11T22:21:56Z",
     "Languages": [
       {
         "Name": "Go",
@@ -13,7 +12,37 @@ export const PROJECTS_LIST: ProjectSchema[] = [
         "Size": 100
       }
     ],
-    "ReadMeOid": "bff5f0b"
+    "DocFileOid": "e267382"
+  },
+  {
+    "Title": "portfolio_svelte",
+    "Description": "An attempt of porting the porfolio project to Svelte in order to get first hand experience in porting a project to another tech stack and understand more about Svelte as a framework",
+    "Label": "building",
+    "Url": "https://github.com/zidariu-sabin/portfolio_svelte",
+    "UpdatedAt": "2025-12-10T21:43:11Z",
+    "Languages": [
+      {
+        "Name": "Svelte",
+        "Color": "#ff3e00",
+        "Size": 72.6
+      },
+      {
+        "Name": "JavaScript",
+        "Color": "#f1e05a",
+        "Size": 17.7
+      },
+      {
+        "Name": "CSS",
+        "Color": "#663399",
+        "Size": 6.9
+      },
+      {
+        "Name": "HTML",
+        "Color": "#e34c26",
+        "Size": 2.9
+      }
+    ],
+    "DocFileOid": "75842c4"
   },
   {
     "Title": "unity-prison-dungeon-crawler-rpg",
@@ -43,7 +72,7 @@ export const PROJECTS_LIST: ProjectSchema[] = [
         "Size": 0
       }
     ],
-    "ReadMeOid": "8cdb718"
+    "DocFileOid": "8cdb718"
   },
   {
     "Title": "PeerPomodoro_Vue",
@@ -73,37 +102,7 @@ export const PROJECTS_LIST: ProjectSchema[] = [
         "Size": 1.9
       }
     ],
-    "ReadMeOid": "a64ee05"
-  },
-  {
-    "Title": "portfolio_svelte",
-    "Description": "An attempt of porting the porfolio project to Svelte in order to get first hand experience in porting a project to another tech stack and understand more about Svelte as a framework",
-    "Label": "building",
-    "Url": "https://github.com/zidariu-sabin/portfolio_svelte",
-    "UpdatedAt": "2025-11-14T16:10:06Z",
-    "Languages": [
-      {
-        "Name": "Svelte",
-        "Color": "#ff3e00",
-        "Size": 72.6
-      },
-      {
-        "Name": "JavaScript",
-        "Color": "#f1e05a",
-        "Size": 17.6
-      },
-      {
-        "Name": "CSS",
-        "Color": "#663399",
-        "Size": 6.9
-      },
-      {
-        "Name": "HTML",
-        "Color": "#e34c26",
-        "Size": 2.9
-      }
-    ],
-    "ReadMeOid": "75842c4"
+    "DocFileOid": "a64ee05"
   },
   {
     "Title": "nuxt_portfolio",
@@ -133,7 +132,7 @@ export const PROJECTS_LIST: ProjectSchema[] = [
         "Size": 0.7
       }
     ],
-    "ReadMeOid": "be8cb9e"
+    "DocFileOid": "be8cb9e"
   },
   {
     "Title": "kata-machine-practice",
@@ -153,7 +152,7 @@ export const PROJECTS_LIST: ProjectSchema[] = [
         "Size": 21.7
       }
     ],
-    "ReadMeOid": "0ffebcc"
+    "DocFileOid": "0ffebcc"
   },
   {
     "Title": "learn-file-storage-s3-golang-starter",
@@ -183,7 +182,7 @@ export const PROJECTS_LIST: ProjectSchema[] = [
         "Size": 1.7
       }
     ],
-    "ReadMeOid": "34d955b"
+    "DocFileOid": "34d955b"
   },
   {
     "Title": "GoBackendExplore",
@@ -198,7 +197,7 @@ export const PROJECTS_LIST: ProjectSchema[] = [
         "Size": 100
       }
     ],
-    "ReadMeOid": "0cfdc02"
+    "DocFileOid": "0cfdc02"
   },
   {
     "Title": "summer-camp",
@@ -218,7 +217,7 @@ export const PROJECTS_LIST: ProjectSchema[] = [
         "Size": 26.8
       }
     ],
-    "ReadMeOid": "d7d3118"
+    "DocFileOid": "d7d3118"
   },
   {
     "Title": "prison-rpg",
@@ -243,7 +242,7 @@ export const PROJECTS_LIST: ProjectSchema[] = [
         "Size": 4.5
       }
     ],
-    "ReadMeOid": "3177e0a"
+    "DocFileOid": "3177e0a"
   },
   {
     "Title": "Go_pomodoro_cli",
@@ -263,7 +262,7 @@ export const PROJECTS_LIST: ProjectSchema[] = [
         "Size": 1.4
       }
     ],
-    "ReadMeOid": "1392b31"
+    "DocFileOid": "1392b31"
   },
   {
     "Title": "Go_fem_Project",
@@ -278,7 +277,7 @@ export const PROJECTS_LIST: ProjectSchema[] = [
         "Size": 100
       }
     ],
-    "ReadMeOid": "78591d0"
+    "DocFileOid": "78591d0"
   },
   {
     "Title": "Finance_tracker_iteration_0_assig_1",
@@ -308,7 +307,7 @@ export const PROJECTS_LIST: ProjectSchema[] = [
         "Size": 0.3
       }
     ],
-    "ReadMeOid": "fa359d7"
+    "DocFileOid": "fa359d7"
   },
   {
     "Title": "FinanceTracker",
@@ -338,7 +337,7 @@ export const PROJECTS_LIST: ProjectSchema[] = [
         "Size": 1
       }
     ],
-    "ReadMeOid": "ee7fcab"
+    "DocFileOid": "ee7fcab"
   },
   {
     "Title": "FinanceTracker-fork",
@@ -368,7 +367,7 @@ export const PROJECTS_LIST: ProjectSchema[] = [
         "Size": 0.3
       }
     ],
-    "ReadMeOid": "ee7fcab"
+    "DocFileOid": "ee7fcab"
   },
   {
     "Title": "Finance_tracker_iteration_0_dotnet_mvc",
@@ -398,7 +397,7 @@ export const PROJECTS_LIST: ProjectSchema[] = [
         "Size": 2
       }
     ],
-    "ReadMeOid": "2c6f010"
+    "DocFileOid": "2c6f010"
   },
   {
     "Title": "projectWarden",
@@ -428,7 +427,7 @@ export const PROJECTS_LIST: ProjectSchema[] = [
         "Size": 0.2
       }
     ],
-    "ReadMeOid": "c49d598"
+    "DocFileOid": "c49d598"
   },
   {
     "Title": "TSP",
@@ -453,6 +452,6 @@ export const PROJECTS_LIST: ProjectSchema[] = [
         "Size": 15.3
       }
     ],
-    "ReadMeOid": "07d71a5"
+    "DocFileOid": "07d71a5"
   }
 ]
