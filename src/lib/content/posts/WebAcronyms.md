@@ -1,6 +1,9 @@
 ---
 date: 2020-11-11  
 title: Web Acronyms
+description: A list of common acronyms used in web development
+slug:
+published: true
 ---
 
 # Web development Acronyms

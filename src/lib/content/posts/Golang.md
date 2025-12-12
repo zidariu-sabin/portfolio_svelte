@@ -1,6 +1,9 @@
 ---
 date: 2025-5-6
 title: Golang
+description: A simple cheatsheet for Golang
+slug:
+published: true
 ---
 
 ## Golang
@@ -67,19 +70,28 @@ playground
 	- complex64 complex128
 ```
 ::
-- bit shifting : "1<<64 - 1"
-- if var = true {}
-	- defining a variable withing an if statement with :+ will make it available in the else scope aswell
+- bit shifting : 
+```go
+1<<64 - 1
+```
+
+- scoped variables
+```go
+ if var := true {} // defining a variable within an if statement with :+ will make it available in the else scope aswell
+```
 - "defer " statement
 	- deferrs execution until other functions are done
 	- multiple defered methods will be transfered in a stack structure
 - array methods
-	- array 1 = array2 [1:4] - scopre.slice from javascript, will copy elements of the array starting from index 1, but not including index 4
-		- [1:4] will create a shallow copy of the elements from the initial array
+``` go
+	array 1 = array2 [1:4] // scopre.slice from javascript, will copy elements of the array starting from index 1, but not including index 4
+		- //[1:4]  will create a shallow copy of the elements from the initial array
+	```
 - functions
 
 ::codecard
-```go [file.go]{2} meta-info=val
+```go
+ [file.go]{2} meta-info=val
 - func (*receiver) functionName (parameter a, parameter b){}// will be called by object.functionName with paramaneters (a,b)
 
 ```

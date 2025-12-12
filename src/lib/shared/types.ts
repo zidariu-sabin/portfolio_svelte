@@ -13,16 +13,24 @@
 // })
 
 export type LanguageSchema = {
-    Name: string;
-    Color: string;
-    Size: number;
+    name: string;
+    color: string;
+    size: number;
 }
 export type ProjectSchema = {
-    Title: string;
-    Description?: string;
-    Label?: string;
-    Url?: string;
-    UpdatedAt?: string;
-    Languages: LanguageSchema[];
-    DocFileOid?: string;
+    title: string;
+    description?: string;
+    label?: string;
+    url?: string;
+    updatedAt?: string;
+    languages: LanguageSchema[];
+    docFileOid?: string;
+}
+
+export type PostSchema = {
+	title: string
+	slug: string
+	description: string
+	date: string
+	published: boolean
 }

@@ -17,9 +17,24 @@
   }
 }
 
+:root {
+    --color-primary: #fff; 
+    --color-secondary: #474a5f;
+    --icon-size: 25px;
+    --foreground: oklch(0.141 0.005 285.823);
+    --muted: oklch(0.274 0.006 286.033);
+    --shiki-default-bg: #000;
+    --color-background: #2C3539;
+
+}
+
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+  background-color: var(--color-background);
+    color: white;
+    margin: 0;
+font-family: 'Roboto';
 }
 
 img, picture, video, canvas, svg {
@@ -40,6 +55,8 @@ p {
 }
 h1, h2, h3, h4, h5, h6 {
   text-wrap: balance;
+  color: var(--color-primary);
+
 }
 
 #root, #__next {
@@ -48,4 +65,5 @@ h1, h2, h3, h4, h5, h6 {
 
 ul li {
     list-style-type: style none;
+    padding-left: var(--size-5);
 }

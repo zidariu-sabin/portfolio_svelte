@@ -7,9 +7,8 @@
 </script>
 
 <!-- <link rel="icon" href={favicon} /> -->
-<div class="w-full h-full flex flex-col">
-	<Navbar class="h-12 top-0" />
+<div class="w-full h-screen flex flex-col overflow-x-visible">
+	<Navbar />
 	{@render children?.()}
-
 </div>	
 
